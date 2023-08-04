@@ -1,11 +1,14 @@
-## ACLM : Attention-map aware keyword selection for Conditional Language Model fine-tuning
+# 🪤 ACLM : Attention-map aware keyword selection for Conditional Language Model fine-tuning
 
-Implementation of [ACLM: A Selective-Denoising based Generative Data Augmentation Approach for Low-Resource Complex NER](https://arxiv.org/abs/2306.00928)
+Implementation of [ACLM: A Selective-Denoising based Generative Data Augmentation Approach for Low-Resource Complex NER](https://aclanthology.org/2023.acl-long.8/) 
+
+ACLM is aninnovative data augmentation approach designed to enhance Complex Named Entity Recognition (NER) in low-resource environments. The method utilizes conditional generation and attention-guided selective masking to retain important named entities and relevant keywords. As a result, ACLM produces more diverse and coherent augmentations, outperforming neural baselines by a significant margin (1%-36%) in various complex NER scenarios.
+
+This repository contains the code and implementation details of ACLM, making it a valuable resource for researchers and practitioners in the field of Natural Language Processing (NLP). Explore ACLM's capabilities and leverage its power to improve NER performance, even in data-scarce domains like biomedical NER.
 
 ![Proposed Methodology](./assets/diagram.jpg)
 
-**Steps:**
-
+## 🧪 Run the code:
 1. Install dependencies using:
       ```
       pip install -r requirements.txt
@@ -31,8 +34,10 @@ Implementation of [ACLM: A Selective-Denoising based Generative Data Augmentatio
       ```
       sh train_dynamic_multilingual_mixner.sh zh zh_CN 100 8 42 0.3 5
       ```
----
-**Please cite our work:**
+
+
+## 📝 Cite us! 
+
 ```
 @inproceedings{ghosh-etal-2023-aclm,
     title = "{ACLM}: A Selective-Denoising based Generative Data Augmentation Approach for Low-Resource Complex {NER}",
