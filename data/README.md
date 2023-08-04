@@ -1,4 +1,4 @@
-# 💽 Data Guide
+## 💽 Data Guide
 
 Languages in the data and their keys:
 
