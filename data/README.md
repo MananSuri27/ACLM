@@ -1,16 +1,16 @@
-Languages Used and their keys:
+# 💽 Data Guide
 
-```
-Language (bart language key) (dataset language key)
+Languages in the data and their keys:
 
-German (de_DE) (de)
-English (en_XX) (en)
-Spanish (es_XX) (es)
-Hindi (hi_IN) (hi)
-Korean (ko_KR) (ko)
-Dutch (nl_XX) (nl)
-Russian (ru_RU) (ru)
-Turkish (tr_TR) (tr)
-Chinese (zh_CN) (zh)
-Bengali (bn_IN) (bn)
-```
+| Language   | BART Language Key | Dataset Language Key |
+|------------|-------------------|----------------------|
+| German     | de_DE             | de                   |
+| English    | en_XX             | en                   |
+| Spanish    | es_XX             | es                   |
+| Hindi      | hi_IN             | hi                   |
+| Korean     | ko_KR             | ko                   |
+| Dutch      | nl_XX             | nl                   |
+| Russian    | ru_RU             | ru                   |
+| Turkish    | tr_TR             | tr                   |
+| Chinese    | zh_CN             | zh                   |
+| Bengali    | bn_IN             | bn                   |
